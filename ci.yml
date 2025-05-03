@@ -19,7 +19,7 @@ jobs:
       - name: Deploy to Make
         env:
           MAKE_TOKEN: ${{ secrets.6525b2ca-d825-4124-bf86-3bbd0e11d0f8 }}
-          MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL }}
+          MAKE_WEBHOOK_URL: ${{ secrets.https://hook.eu2.make.com/yn07dzhueik7yp4568yo6xdbaulw72j9 }}
         run: |
           curl -X POST -H "Authorization: Bearer $MAKE_TOKEN" -H "Content-Type: application/json" \
                -d @assistant_prompts/AI-Project-Manager-Assistant.json \
