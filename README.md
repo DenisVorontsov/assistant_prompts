@@ -1,6 +1,5 @@
 # assistant_prompts
 
-
 This repository stores the production‑ready prompt libraries for the **SmartBusinessExpert** multi‑agent stack.
 
 ## Structure
